@@ -1,0 +1,51 @@
+.navbar{
+ 
+	display:inline-block;
+}
+
+
+
+
+.navbar li{
+
+list-style: none;
+display:inline-block;
+
+margin:auto;
+}
+
+.navbar li a{
+text-decoration: none;
+color:rgb(0, 0, 0);
+font-size: 18px;
+padding:8px 20px;
+}
+
+.navbar li a:hover{
+color:rgb(11, 7, 247);
+border: rgb(24, 15, 24);
+border-radius: 2px;
+font-size: 20px;
+}
+
+.navbar li a:active{
+background-color: deepskyblue;
+border-radius: 5px;
+}
+
+.left {
+	background-color: #dcdcdc;
+display: inline-block;
+width: 100%;
+font-size: 18px;
+padding: 18px 17px;
+color: #000000;
+
+
+}
+.left a{
+text-decoration:none;
+}
+.left:hover{
+font-weight:bolder;
+}
