@@ -4,6 +4,7 @@ import Login from './components/Login';
 import Register from './components/Register';
 import Reset from './components/Reset';
 import Dashboard from './components/Dashboard';
+import MyForm from './pages/createPodcast'
 import './App.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Navbar />
         <Switch>
           <Route exact path="/" component={Login} />
+          <Route exact path="/new_podcast" component={MyForm} />
           <Route exact path="/dashboard" component={Dashboard} />
           <Route exact path="/register" component={Register} />
           <Route exact path="/reset" component={Reset} />
